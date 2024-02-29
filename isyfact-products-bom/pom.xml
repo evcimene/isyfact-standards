@@ -293,6 +293,14 @@
                 <scope>test</scope>
             </dependency>
 
+            <!-- Testing, load test driver: Apache JMeter -->
+            <dependency>
+                <groupId>org.apache.jmeter</groupId>
+                <artifactId>ApacheJMeter_core</artifactId>
+                <version>${ApacheJMeter_core.version}</version>
+                <scope>test</scope>
+            </dependency>
+
             <!-- GreenMail test suite for mail servers -->
             <dependency>
                 <groupId>com.icegreen</groupId>
@@ -556,13 +564,6 @@
             <version>${jsoup.version}</version>
         </dependency>
 
-        <!-- Testing, load test driver: Apache JMeter -->
-        <dependency>
-            <groupId>org.apache.jmeter</groupId>
-            <artifactId>ApacheJMeter_core</artifactId>
-            <version>${ApacheJMeter_core.version}</version>
-            <scope>test</scope>
-        </dependency>
 
         <!-- Testen, Mocking-Framework: WireMock -->
         <dependency>
